@@ -24,3 +24,8 @@ end, { desc = "Next error"})
 --vim.keymap.set('n', 'err', function()
 --	vim.diagnostic.jump({ count = -1, severity = vim.diagnostic.severity.ERROR })
 --end, { desc = "Previous error"})
+
+vim.keymap.set('n', 'K', vim.lsp.buf.hover, { desc = "Hover docs"})
+
+vim.keymap.set('n', '<C-k>', vim.lsp.buf.signature_help, { desc = "Signature help" })
+vim.keymap.set('i', '<C-k>', vim.lsp.buf.signature_help, { desc = "Signature help" })
