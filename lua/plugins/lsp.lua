@@ -1,1 +1,6 @@
-vim.lsp.enable('clangd')
+vim.lsp.enable({
+	'clangd',
+	'lua_ls'
+}
+)
+
