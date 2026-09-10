@@ -6,4 +6,6 @@ vim.pack.add({
 	{ src = "https://github.com/MunifTanjim/nui.nvim" },
 	{ src = "https://github.com/kawre/leetcode.nvim" },
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter", version = "main" },
+	{ src = "https://github.com/neovim/nvim-lspconfig" },
+
 })

@@ -5,6 +5,7 @@ require("plugins.telescope")
 require("plugins.base16")
 require("plugins.treesitter")
 require("plugins.leetcode")
+require("plugins.lsp")
 
 require("options")
 
