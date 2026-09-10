@@ -4,8 +4,10 @@ require("plugins.lualine")
 require("plugins.telescope")
 require("plugins.base16")
 require("plugins.treesitter")
-require("plugins.leetcode")
+require("plugins.autopairs")
 require("plugins.lsp")
+
+require("plugins.leetcode")
 
 require("options")
 
